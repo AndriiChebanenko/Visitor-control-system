@@ -6,6 +6,7 @@ typedef enum {COUNTER, ALARM} workmode;
 
 int enters_counter;
 int exits_counter;
+int n = 0;
 
 void setup() {
   pinMode(SENSOR_1_PIN, INPUT);
